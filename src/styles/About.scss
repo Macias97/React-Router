@@ -1,0 +1,14 @@
+.about_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #011627;
+}
+
+@media screen, (max-width: 420px) and (max-width: 1080px) {
+  .about_container {
+    flex-wrap: wrap;
+  }
+}
