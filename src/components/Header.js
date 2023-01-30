@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FaRegUser, FaRegEnvelope } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <nav>
       <ul>
